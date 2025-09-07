@@ -1,0 +1,230 @@
+/* components.css */
+
+/* Property card styles */
+.property-card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.property-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.property-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.property-card-body {
+  padding: 1rem;
+}
+
+.property-card-body h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+}
+
+.property-card-body p {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0.25rem 0;
+}
+
+.property-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.75rem;
+}
+
+.price {
+  font-weight: bold;
+  color: #2e7d32;
+}
+
+.view-link {
+  color: #1976d2;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.view-link:hover {
+  text-decoration: underline;
+}
+
+/* Property detail page */
+.property-detail {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.property-detail img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.property-detail h1 {
+  font-size: 1.5rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.property-detail p {
+  margin: 0.5rem 0;
+  color: #444;
+}
+
+/* Admin form */
+.admin-form {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  max-width: 500px;
+  margin: 1rem auto;
+}
+
+.admin-form h2 {
+  margin-bottom: 1rem;
+}
+
+.admin-form input,
+.admin-form textarea {
+  width: 100%;
+  padding: 0.6rem;
+  margin: 0.4rem 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+.admin-form button {
+  background: #1976d2;
+  color: white;
+  padding: 0.7rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  transition: background 0.2s;
+}
+
+.admin-form button:hover {
+  background: #145ca4;
+}
+
+.logout-btn {
+  background: #d32f2f;
+}
+
+.logout-btn:hover {
+  background: #a62828;
+}
+
+
+/* Header navigation */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1976d2;
+  padding: 0.8rem 1.5rem;
+  color: white;
+}
+
+.site-header .logo {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.site-header nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.nav-link:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.logout-btn {
+  background: #d32f2f;
+  border: none;
+  padding: 0.3rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background: #b71c1c;
+}
+/* Property Grid */
+.property-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+/* Property Detail Page */
+.property-detail {
+  max-width: 900px;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+
+.property-detail-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.property-detail-content {
+  padding: 1.5rem 2rem;
+}
+
+.property-detail-content h1 {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  color: #1976d2;
+}
+
+.property-detail-content .price {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #2e7d32;
+  margin: 0.5rem 0;
+}
+
+.property-detail-content .location {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.property-detail-content .description {
+  line-height: 1.6;
+  color: #333;
+}
