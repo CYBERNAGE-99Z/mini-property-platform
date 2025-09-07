@@ -31,25 +31,31 @@
 
 ####⚡ Getting Started
 1. Clone Repository
-  -     git clone https://github.com/YOUR-USERNAME/mini-property-platform.git
-  -     cd mini-property-platform
-2. Setup Backend
-    -      cd backend
-    -      npm install
-    -      npm run dev
+
+       git clone https://github.com/YOUR-USERNAME/mini-property-platform.git
+       cd mini-property-platform
+4. Setup Backend
+
+       cd backend
+       npm install
+       npm run dev
+   
 - Runs at: http://localhost:5000
 - Configure .env:
-    -     MONGO_URI=your_mongodb_uri
-    -     JWT_SECRET=your_secret_key
+
+       MONGO_URI=your_mongodb_uri
+       JWT_SECRET=your_secret_key
 3. Setup Frontend
-   -      cd frontend
-   -      npm install
-   -      npm run dev
+
+       cd frontend
+       npm install
+       npm run dev
 - Runs at: http://localhost:3000
   
 #### 🔑 Admin Credentials
--      Email: admin@test.com
--      Password: admin123
+
+      Email: admin@test.com
+      Password: admin123
 ### 👤 Author
 ### Akshansh Roy
 [Linkedin](https://www.example.com](https://www.linkedin.com/in/akshansh-r-a7946b2a5/)
