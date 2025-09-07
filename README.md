@@ -29,7 +29,7 @@
 
 - Authentication: JWT (JSON Web Tokens)
 
-####⚡ Getting Started
+#### ⚡ Getting Started
 1. Clone Repository
 
        git clone https://github.com/YOUR-USERNAME/mini-property-platform.git
