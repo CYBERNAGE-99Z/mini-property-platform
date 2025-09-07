@@ -1,1 +1,0 @@
-# mini-property-platform
